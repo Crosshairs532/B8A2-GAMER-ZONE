@@ -76,4 +76,28 @@
         object-fit: cover;
     }
 
+    .footer-conditions {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        justify-items: center;
+        row-gap: 20px;
+        column-gap: 20px;
+
+    }
+
+    .footer-details {
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        width: 100%;
+        row-gap: 20px;
+        column-gap: 4px;
+    }
+
+    .footer-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10px;
+        column-gap: 20px;
+        font-size: 1.3rem;
+    }
 }
