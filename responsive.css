@@ -28,21 +28,15 @@
     }
 
     .banner-info {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* padding-top: 10px; */
         background-image: url("images/Group\ 14.png");
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        height: 400px;
 
     }
 
     .banner-description {
         text-align: center;
         width: auto;
-
     }
 
     .banner-info .play {
