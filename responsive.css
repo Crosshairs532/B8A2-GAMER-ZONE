@@ -93,6 +93,7 @@
         column-gap: 4px;
     }
 
+
     .footer-icons {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -100,4 +101,31 @@
         column-gap: 20px;
         font-size: 1.3rem;
     }
+
+    .all-games {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        width: 100%;
+        grid-gap: 0px;
+        row-gap: 20px;
+        padding: 0px;
+    }
+
+    .games {
+        width: 100px;
+        color: #0B0223;
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        background: #FFF;
+    }
+
+    .games img {
+        width: 30%;
+        object-fit: cover;
+    }
+
 }
