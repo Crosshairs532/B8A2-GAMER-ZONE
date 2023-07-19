@@ -128,4 +128,18 @@
         object-fit: cover;
     }
 
+    .funny-videos {
+
+        width: 100%;
+
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+    }
+
+    .videos {
+        width: 80%;
+        height: auto;
+    }
 }
