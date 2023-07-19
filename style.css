@@ -126,6 +126,7 @@ span {
     background-image: linear-gradient(to bottom, #FF42A5, #8758F1);
     color: transparent;
     background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .banner-container {
@@ -217,6 +218,7 @@ span {
     background-image: linear-gradient(to bottom, #FF42A5, #8758F1);
     color: transparent;
     background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .funny-video-container {
